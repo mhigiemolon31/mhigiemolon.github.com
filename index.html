@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website </title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://kit.fontawesome.com/4b8815d204.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+ <div id="header">
+    <div class="container">
+        <nav> 
+            <img src="mhigielogo.png" ="250" ="400" class="logo">   
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>   
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> WEB DEVELOPER/DESIGNER </p>
+            <h1>HI, I'M <span>MHIGIE MOLON </span><br>FROM PHILIPPINES</h1>
+        </div>
+    </div>
+</div> 
+<!-- -----------------about--------------- -->
+<div id="about">
+    <div class="container">
+         <div class="row">
+             <div class="about-col-1">
+                 <img src="mhigieuser.png">
+             </div>  
+             <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>I'm Mhigie Molon you can call me Mhigs for what my family and friends call me. 
+                    i am student in ICCT COLLEGE in BSIT COURSE. I learn about programming 
+                    i can use my knowlege to help you and i have a lot knowlege about in 
+                    electronics industrial and electronics consumer and also electrical.</p>
+ 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                     <li><span>WEB  DEVELOPER</span><br>Web app Development/create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, web developers may create content for the site </li>
+                     <li><span>APP  DEVELOPER</span><br>Building Android/ios apps/A mobile app developer uses programming languages and development skills to create, test, and develop applications on mobile devices. They work in popular operating system environments like iOS and Android and often take into account UI and UX principles when creating applications </li>
+                     <li><span>GAME DEVELOPER</span><br>software development entity specializing in video game development/Video game developers take a designer's concepts and build them into a playable game for users. Video game developers, also known as games developers or video game programmers, write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>ElECTRONICS INDUSTRIAL</span><br>Industrial electronics generally refers to the use of electronics for power and control systems, outside of the field of communications </li>
+                    <li><span>ElECTRONICS CONSUMER</span><br>Consumer electronics devices include those used for. entertainment (flatscreen TVs, television sets, MP3 players, video recorders, DVD players, radio receivers, etc.) communications (telephones, cell phones, e-mail-capable personal computers, desktop computers, laptops, printers, paper shredders, etc.)</li>
+                    <li><span>ELECTRICAL WIRING</span><br>House electrical wiring is a process of connecting different accessories for the distribution of electrical energy from the supplier to various appliances and equipment at home like television, lamps, air conditioners, etc. Let us look at the different types of electrical wiring that are used in domestic properties </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022</span><br>ICCT COLLEGE </li>
+                    <li><span>2020</span><br>AICS MONTALBAN </li>
+					<li><span>2018</span><br>MANGGAHAN NATIONAL HIGHSCHOOL </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Develop</h2>
+              <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+              <a href="#">Learn more</a>
+            </div>  
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Developer</h2>
+                <p>Discover the latest app development tools, platform updates, training, and documentation for developers across every Android device.</p>
+                <a href="#">Learn more</a>
+              </div> 
+              <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Developer</h2>
+                <p>Video game developers take a designer's concepts and build them into a playable game for users. Video game developers, also known as games developers or video game programmers, write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones.</p>
+                <a href="#">learn more</a>
+              </div> 
+        </div>
+    </div>
+</div> 
+<!-- --------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="image.work.6.png">
+                <div class="layer">
+                    <h3>Web System</h3>
+                    <p> Provides customers an easy way to contact you and learn more about your products, services and business</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image.work.5.png" height = 290>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> The app connect you the talented people around the world. 
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image.work.9.png" height = 290>
+                <div class="layer">
+                    <h3>Video Games</h3>
+                    <p> Take a designer's concepts and build them into a playable game for users.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> 
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>miggymolon31@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09263103850</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008968247864&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    
+                    <a href="https://www.instagram.com/molonmohigie/"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/foryou?lang=en"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <a href=""class="btn btn2">Download </a>
+            </div>
+            <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script> 
+ 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link"); 
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right=  "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>
